@@ -12,13 +12,13 @@ COURSE=[
     {
         'id':2,
         'name': 'Cyber Security',
-        'Instructor': 'Senphil',
+        'Instructor': 'Ahmed',
         'cost': '$300'
     },
     {
         'id':3,
         'name': 'AWS Computing',
-        'Instructor': 'Senphil',
+        'Instructor': 'Wade',
         'cost': '$300'
     }
 ]

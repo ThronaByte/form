@@ -16,7 +16,7 @@
     </style>
     <!-- <link rel="stylesheet" type="image/x-icon" href="/static/Linsoft Cybernetic logo.jpg 3d.jpg"> -->
 </head>
-
+{% include 'nav.html' %}
 
 <body>
     <div  class="container">
@@ -37,8 +37,9 @@
         {% endfor %}
     </p>
     <div class="text-center mb-4">
-    <button type="button" class="btn btn-success btn-lg"> Contact Us</button>
+    <a href="mailto:jadevictor247@gmail.com?subject=Contact%20Us%20%40&body=jadevictor247%40gmail.com%0D%0A" type="button" class="btn btn-success btn-lg"> Contact Us</a>
 </div>
 </div>
+{% include 'foot.html' %}
 </body>
 </html>
